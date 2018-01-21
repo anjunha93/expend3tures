@@ -1,0 +1,38 @@
+{{> mainNavBar}}
+
+
+
+<div class="container">
+<!--<h3>Please register using the form below</h3> -->
+
+	<div class="row">
+		<form action="/my-handling-form-page" class="expense-form" method="post">
+		    <div class="input-group">
+		        <label for="name"><h2>Add an Expense {{ username }}</h2></label>
+		        <input type="hidden" class="form-control" id="username" name="username" value="{{ username }}">
+		    </div>
+		    <div class="input-group">
+		        <label for="expense">expense?</label>
+		        <input type="checkbox" class="form-control" id="expense" name="expense" value="true">
+		    </div>
+		    <div class="input-group">
+		        <label for="expense_category">expense_category</label>
+		        <input type="text" class="form-control" id="expenseCategory" name="expenseCategory">
+		    </div>
+		    <div class="input-group">
+		        <label for="expense_value">Expense_value</label>
+		        <input type="number" class="form-control" id="expenseValue" name="expenseValue" value="0">
+		    </div>
+		    <div class="input-group">
+		        <label for="recurring">recurring?</label>
+		        <input type="checkbox" class="form-control" id="recurring" name="recurring" value="true">
+		    </div>
+		    <div class="input-group">
+		        <label for="recurring_periodic">recurring_periodic</label>
+		        <input type="number" class="form-control" id="recurringPeriodic" name="recurringPeriodic" value="0">
+		    </div>
+		    <button type="submit" class="btn btn-primary" value="register">Submit</button>
+
+		</form>
+	</div>
+</div>
