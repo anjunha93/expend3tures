@@ -6,7 +6,7 @@ expenD3tures is an expense tracker that utilizes D3.js. D3 helps to bring data t
 
 ### Link to Site
 
-[expenD3tures](https://rocky-escarpment-61649.herokuapp.com/)
+[expenD3tures](https://expend3tures.herokuapp.com/)
 
 ## Screenshots
 ![picture of homepage](https://user-images.githubusercontent.com/22949508/33589359-9c6f4856-d93d-11e7-9bf5-6a14b361b2c3.jpg)
